@@ -1,0 +1,201 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+
+body {    
+    font-family: "nocturne-serif", serif;
+    background-color:  rgb(250,250,250);
+    margin: 0;
+    padding: 0;
+} 
+
+div.home-container { 
+    background: url(plantshadow.jpeg) center center fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    max-width: 80em;
+    margin: auto;
+}
+
+div.container { 
+    position: relative;
+    min-height: 100vh;
+    max-width: 80em;
+    margin: auto;
+    background-color: rgb(243, 241, 241);
+}
+
+/* >>> IMPORTANT: you have to change the wrap of the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class. And you need a div with the class container and all the other pages.  */
+main { 
+    padding: 1em 2em 5em;
+}
+
+img {
+    width: 100%; /*Please leave this line.*/
+    display: block;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(102,29,13);
+    padding: 1em 1em 1em;
+}
+
+h1 {
+    width: 14em;
+    padding-top: 0.5em;
+}
+
+h2, h3, h4 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0em 0em 2em;
+    margin-top: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 2em 0em 1em;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1em 0em 0.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul  {
+    text-align: right;
+    margin-top: 0.5em;
+}
+
+ul li 	{
+    list-style-type: none;
+}
+
+figure {
+    margin-bottom: 1em;
+}
+
+
+p {
+    margin: 1em 0em 0.25em;
+    line-height: 1.25em;
+}
+
+p.description {
+    grid-column: 1/3;
+    margin: 0;
+}
+
+p.price {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    color: rgb(100,100,100);
+    text-align: right;
+    margin-top: 1em;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    font-family: "nocturne", serif;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    font-size: 1.25em;
+}
+
+nav ul li a {
+    color: rgb(228, 129, 129);
+    padding: 0.5em 1em 0.5em;
+}
+p.slogan {
+    font-size: 5em;
+    font-family: "nocturne", serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 3.5em 0em 2.5em;
+    color: rgb(255, 255, 255);	
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem; 
+    box-sizing: border-box;
+    padding: 1rem 2em;
+    background: rgb(102,29,13);
+}
+
+address {
+    color: rgb(102,29,13);
+}
+
+article {
+    max-width: 30em;
+    margin: 0em auto;
+}
+
+article ul {
+    display: block;
+  }
+  
+article ul li {
+    display: block;
+    margin: 1em 0;
+  }
+
+footer p {
+    margin: 0;
+    color: rgb(228, 129, 129);
+}
+
+nav ul li.selected a {
+    color: rgb(250,250,250);
+ }
+
+ main.menu ul li {
+    margin: 2em 0em 0em;
+	
+ }
+
+@media screen and (min-width: 60em){
+   
+    
+    nav ul li {
+        display: inline;
+        margin-top: 1em;
+    }
+
+    main.menu ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0.5em 0em;
+    }
+
+    main.menu ul li {
+        margin: 1em;
+    }
+    
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        column-gap: 0.1em;
+        padding-top: 0.5em;
+    }
+
+    header {
+        align-items: center;
+    }
+}
