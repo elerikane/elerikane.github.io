@@ -1,0 +1,111 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.container {
+    max-width: 40em;
+    place-items: center;
+    margin: auto;
+}
+
+nav a {
+    color: rgb(92 118 150);
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 0.5em;
+    display: inline-block;
+}
+
+nav {
+    padding-bottom: 1.25em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    width: 7em;
+    padding-bottom: 1em;
+    margin: 1.25em 0 0 0.5em;
+}
+
+section.main-story h2 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(92 118 150);
+    text-decoration: none;
+    margin-left: 0.25em;
+    padding-top: 0.1em;
+
+}
+
+p {
+    font-family:  sans-serif;
+    padding-bottom: 2em;
+    margin-left: 0.5em;
+    color: rgb(34 34 34);
+    line-height: 1.25em;
+
+}
+
+figcaption {
+    color: rgb(87 87 87);
+    font-family:  sans-serif;
+    font-style: italic;
+    padding: 0.25em 0 0 0.5em;
+    margin-bottom: 1em;
+}
+
+section.tertiary-story h2 {
+    border-top: 1.25px solid rgb(92 118 150);
+    margin-left: 0.5em;
+    padding-bottom: 0.15em;
+    padding-top: 0.5em;
+    font-size: 1em;
+}
+
+aside section.secondary-story {
+    background-color: rgb(204 207 251)
+}
+
+aside section.secondary-story h2 {
+    font-size: 1em;
+    padding-left: 0.5em;
+    margin-top: 0.1em;
+
+}
+
+aside section.secondary-story img {
+   margin: auto;
+   width: 96%;
+   padding-top: 1em;
+}
+
+aside section.secondary-story p {
+    padding-left: 0.25em;
+
+}
+
+footer {
+    background-color:rgb(92 118 150);
+    color: #FFFF;
+    font-family: sans-serif;
+    padding: 0.75em 0 0.75em 0.5em;
+}
+
+
