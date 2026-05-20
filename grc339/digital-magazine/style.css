@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/onq8enj.css");
+
 /*CSS document*/
 
 html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
@@ -17,8 +19,8 @@ div.container, div.home-container {
 }
 
 nav a {
-    color: rgb(92 118 150);
-    font-family: sans-serif;
+    color: rgb(20 20 20);
+    font-family: "obviously", sans-serif;
     font-weight: bold;
     display: inline-block;
     padding: 0 0.5em 0 0.5em;
@@ -37,7 +39,7 @@ ul {
 }
 
 h1 {
-    width: 7em;
+    width: 15em;
     padding: 0 0.5em 1em 0.5em;
     margin: 1.25em 0 0 0;
 }
@@ -48,44 +50,47 @@ section.mainstory h2 {
 
 h2 {
     font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "tt-modernoir", sans-serif;
     font-weight: bold;
-    color: rgb(92 118 150);
+    color: rgb(150 0 20);
     text-decoration: none;
     padding: 0.1em 0 0 0.2em;
 
 }
 
 p {
-    font-family:  sans-serif;
+    font-family:  "halyard-display", sans-serif;
+    font-weight: bold;
     padding: 0 0.2em 2em 0.5em;
     color: rgb(34 34 34);
-    line-height: 1.25rem;
+    line-height: 1.5rem;
 }
 
 figcaption {
     color: rgb(87 87 87);
-    font-family:  sans-serif;
+    font-family:  "halyard-display", sans-serif;
     font-style: italic;
     padding: 0.25em 0 0 0.2em;
     margin-bottom: 1em;
 }
 
 section.tertiary-story h2 {
-    border-top: 1.25px solid rgb(92 118 150);
+    border-top: 1.25px solid rgb(150 0 20);
     padding-bottom: 0.15em;
     padding-top: 0.5em;
     font-size: 1em;
 }
 
 aside section.secondary-story {
-    background-color: rgb(204 207 251);
+    background-color: rgb(20, 20, 20);
 }
 
 aside section.secondary-story h2 {
     font-size: 1em;
     padding-left: 0.5em;
     margin-top: 0.1em;
+    color: rgb(255 255 255);
+
 }
 
 aside section.secondary-story img {
@@ -97,13 +102,15 @@ aside section.secondary-story img {
 
 aside section.secondary-story p {
     padding-left: 0.5em;
+    color: rgb(200 200 200);
+
 
 }
 
 footer {
-    background-color:rgb(92 118 150);
+    background-color:rgb(150 0 20);
     color: rgb(255 255 255);
-    font-family: sans-serif;
+    font-family: "halyard-display", sans-serif;
     width: 100%;
     padding: 0.5em 0 0.5em 0.2em;
     box-sizing: border-box;
